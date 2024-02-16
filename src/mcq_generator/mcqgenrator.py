@@ -26,7 +26,7 @@ with open("D:/project_1/response.json","r") as f:
 
 
 # this is the template in i need to pass in PromptTemplate class
- TEMPLATE="""
+TEMPLATE1="""
 Text:{text}
 You are an expert MCQ maker. Given the above text, it is your job to \
 create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. 
@@ -41,7 +41,7 @@ Ensure to make {number} MCQs
 #defining the prompt template class
 quiz_generation_prompt = PromptTemplate(
     input_variables=["text","number", "subject","tone","response_json"],
-    template = TEMPLATE
+    template = TEMPLATE1
 )
 
 
