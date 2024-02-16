@@ -2,8 +2,10 @@
 
 Deployment commands:
 step 1: launch an ec2 ubuntu instance in AWS
+
 step2: click on instance and press "connect"
         your ec2 instance will be launched
+        
 step3: runnfollowing commands:
         sudo apt update
         sudo apt upgrade -y
